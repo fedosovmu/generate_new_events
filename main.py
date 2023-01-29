@@ -1,5 +1,7 @@
-
+from src.events_generator import EventsGenerator
 
 if __name__ == '__main__':
-    print('Hello world')
+    generator = EventsGenerator()
+    generator.generate()
+
 

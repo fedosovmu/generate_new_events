@@ -1,3 +1,4 @@
 /venv/
 /.idea/
 src/private_data_repository.py
+src/__pycache__/**

@@ -29,14 +29,14 @@ class EventsGenerator:
         print('Find events with same ids:')
         v2_repls_count = 0
         for key in v2_by_ids.keys():
-            if (key in excel_by_id):
-                print('Excel has the same:', key, '-', excel_by_id[key])
+            if (key not in excel_by_id):
+                print('Excel has no:', key, '-', v2_by_ids[key])
                 v2_repls_count += 1
 
         excecl_repls_count = 0
         for key in excel_by_id.keys():
-            if (key in v2_by_ids):
-                print('Default has the same:', key, '-', v2_by_ids[key])
+            if (key not in v2_by_ids):
+                print('Default has no:', key, '-', excel_by_id[key])
                 excecl_repls_count += 1
 
         print(f'Repls counts, v2: {v2_repls_count} excel: {excecl_repls_count}')

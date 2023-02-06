@@ -1,0 +1,446 @@
+File,Key,Context,English,"Chinese Simplified",Russian
+translations.csv,app_version,app_version,"Version: {app_version}",软件版本,"Версия приложения {app_version}"
+translations.csv,loading,loading,Loading…,载入,Загрузка…
+translations.csv,terms_and_conditions,terms_and_conditions,"Terms & Conditions",条款和条件,"Terms & Conditions"
+translations.csv,privacy_policy,privacy_policy,"Privacy Policy",隐私政策,"Privacy Policy"
+translations.csv,home_page.title,home_page.title,@:today,@:today,@:today
+translations.csv,empty_card.now,empty_card.now,"@:mood now",@:today,"@:mood сейчас"
+translations.csv,empty_card.part_of_day,empty_card.part_of_day,"@:mood {part_of_day_in_instrumental_case}","@:mood {part_of_day_in_instrumental_case}","@:mood {part_of_day_in_instrumental_case}"
+translations.csv,bottom_navigation_bar.home,bottom_navigation_bar.home,Home,@:mood,Главная
+translations.csv,bottom_navigation_bar.chart,bottom_navigation_bar.chart,Chart,"@:mood {part_of_day_in_instrumental_case}",График
+translations.csv,bottom_navigation_bar.events,bottom_navigation_bar.events,Events,Events,События
+translations.csv,bottom_navigation_bar.calendar,bottom_navigation_bar.calendar,Calendar,首页,Календарь
+translations.csv,subscription_banner.title,subscription_banner.title,"Free access","图表 ","Бесплатный доступ"
+translations.csv,subscription_banner.description,subscription_banner.description,"All beta testers can use the app for free.",活动,"Все бета-тестеры могут использовать приложение бесплатно."
+translations.csv,profile_screen.title,profile_screen.title,Profile,日历,Профиль
+translations.csv,profile_screen.menu.account,profile_screen.menu.account,Account,Account,Аккаунт
+translations.csv,profile_screen.menu.account.not_authorized,profile_screen.menu.account.not_authorized,"Not authorized",免费使用,"Не авторизован"
+translations.csv,profile_screen.menu.notifications,profile_screen.menu.notifications,Notifications,所有测试者均可免费使用该应用,Уведомления
+translations.csv,profile_screen.menu.notifications.no_notifications,profile_screen.menu.notifications.no_notifications,@:no_notifications,@:no_notifications,@:no_notifications
+translations.csv,profile_screen.menu.notifications.permissions_missing,profile_screen.menu.notifications.permissions_missing,"Permissions missing",设备,"Отсутствуют разрешения"
+translations.csv,profile_screen.menu.language,profile_screen.menu.language,Language,账户,Язык
+translations.csv,profile_screen.menu.about,profile_screen.menu.about,About,"未经授权 ","О приложении"
+translations.csv,profile_screen.menu.contact,profile_screen.menu.contact,"Contact us",通知,Связаться
+translations.csv,about_screen.title,about_screen.title,@:profile_screen.menu.about,没有通知,@:profile_screen.menu.about
+translations.csv,about_screen.menu.terms,about_screen.menu.terms,@:terms_and_conditions,语言,@:terms_and_conditions
+translations.csv,about_screen.menu.privacy,about_screen.menu.privacy,@:privacy_policy,了解App,@:privacy_policy
+translations.csv,about_screen.menu.onboarding,about_screen.menu.onboarding,"User manual",与我们联系,"Пройти обучение"
+translations.csv,language_screen.title,language_screen.title,@:profile_screen.menu.language,@:profile_screen.menu.language,@:profile_screen.menu.language
+translations.csv,events_page.title,events_page.title,"Events for all time",@:profile_screen.menu.about,"События за всё время"
+translations.csv,event_influence.in_moment,event_influence.in_moment,"In the moment",@:terms_and_conditions,"В моменте"
+translations.csv,event_influence.in_future,event_influence.in_future,"In future",@:privacy_policy,Потом
+translations.csv,event_influence_level.super_down,event_influence_level.super_down,"Much worse",用户手册,"Значительно хуже"
+translations.csv,event_influence_level.down,event_influence_level.down,Worse,Worse,Хуже
+translations.csv,event_influence_level.neutral,event_influence_level.neutral,"No change",@:profile_screen.menu.language,"Не меняется"
+translations.csv,event_influence_level.up,event_influence_level.up,Better,Better,Лучше
+translations.csv,event_influence_level.super_up,event_influence_level.super_up,"Much better","所有时间的活动 ","Значительно лучше"
+translations.csv,frequency_diagram.title.event,frequency_diagram.title.event,"{chart_mode} with «{event}»","在当下 ","{chart_mode} с событием «{event}»"
+translations.csv,frequency_diagram.title.emotion,frequency_diagram.title.emotion,"{chart_mode} with «{emotion}»",后来,"{chart_mode} с эмоцией «{emotion}»"
+translations.csv,mood_chart_page.popup.filter.title,mood_chart_page.popup.filter.title,Display,差很多,Отображение
+translations.csv,mood_chart_page.popup.filter.all_button.title,mood_chart_page.popup.filter.all_button.title,"All events",更差,"Все события"
+translations.csv,mood_chart_page.popup.filter.action_button.title,mood_chart_page.popup.filter.action_button.title,Apply,不变,Применить
+translations.csv,mood_chart_page.tooltip.details.more,mood_chart_page.tooltip.details.more,"More details",更好,Подробнее
+translations.csv,mood_chart_page.tooltip.details.yet,mood_chart_page.tooltip.details.yet,"More {overflow_events_count}…",好很多,"Еще {overflow_events_count}…"
+translations.csv,mood_assessment_screen.title.now,mood_assessment_screen.title.now,"How are you feeling?","How are you feeling?","Как настроение?"
+translations.csv,mood_assessment_screen.title.part_of_day.today,mood_assessment_screen.title.part_of_day.today,"@:mood {part_of_day_in_instrumental_case}","{chart_mode} 活动 «{event}»","@:mood {part_of_day_in_instrumental_case}"
+translations.csv,mood_assessment_screen.title.part_of_day.yesterday,mood_assessment_screen.title.part_of_day.yesterday,"@:yesterday {part_of_day_in_instrumental_case}","{chart_mode} 情感 «{emotion}»","@:yesterday {part_of_day_in_instrumental_case}"
+translations.csv,mood_assessment_screen.title.part_of_day.date,mood_assessment_screen.title.part_of_day.date,"{date} {part_of_day_in_instrumental_case}","{date} {part_of_day_in_instrumental_case}","{date} {part_of_day_in_instrumental_case}"
+translations.csv,mood_assessment_screen.title.update.today.with_time,mood_assessment_screen.title.update.today.with_time,"@:today {part_of_day_in_instrumental_case} at {time}",表示,"@:today {part_of_day_in_instrumental_case} в {time}"
+translations.csv,mood_assessment_screen.title.update.today.without_time,mood_assessment_screen.title.update.today.without_time,"@:mood {part_of_day_in_instrumental_case}",所有的活动,"@:mood {part_of_day_in_instrumental_case}"
+translations.csv,mood_assessment_screen.title.update.yesterday.with_time,mood_assessment_screen.title.update.yesterday.with_time,"@:yesterday {part_of_day_in_instrumental_case} at {time}",确认,"@:yesterday {part_of_day_in_instrumental_case} в {time}"
+translations.csv,mood_assessment_screen.title.update.yesterday.without_time,mood_assessment_screen.title.update.yesterday.without_time,"@:yesterday {part_of_day_in_instrumental_case}",更多消息,"@:yesterday {part_of_day_in_instrumental_case}"
+translations.csv,mood_assessment_screen.title.update.date.with_time,mood_assessment_screen.title.update.date.with_time,"{date} {part_of_day_in_instrumental_case} at {time}","更多 {overflow_events_count}…","{date} {part_of_day_in_instrumental_case} в {time}"
+translations.csv,mood_assessment_screen.title.update.date.without_time,mood_assessment_screen.title.update.date.without_time,"{date} {part_of_day_in_instrumental_case}","{date} {part_of_day_in_instrumental_case}","{date} {part_of_day_in_instrumental_case}"
+translations.csv,mood_assessment_screen.action_button.title,mood_assessment_screen.action_button.title,Assess,心情怎么样？,Оценить
+translations.csv,mood_assessment_screen.delete_popup.title,mood_assessment_screen.delete_popup.title,"Delete the assessment?","@:mood {part_of_day_in_instrumental_case}","Удалить оценку?"
+translations.csv,select_events_screen.title,select_events_screen.title,@:events,"@:yesterday {part_of_day_in_instrumental_case}",@:events
+translations.csv,select_events_screen.create_event_button.title,select_events_screen.create_event_button.title,"Add new event","{date} {part_of_day_in_instrumental_case}","Добавить новое событие"
+translations.csv,select_events_screen.search.hint_text,select_events_screen.search.hint_text,"Events search","@:today {part_of_day_in_instrumental_case} at {time}","Поиск событий"
+translations.csv,select_events_screen.search.not_found,select_events_screen.search.not_found,"The is no\n{search_text} event","@:mood {part_of_day_in_instrumental_case}","Нет события\n«{search_text}»"
+translations.csv,select_events_screen.subtitle.recent,select_events_screen.subtitle.recent,"Recent events","@:yesterday {part_of_day_in_instrumental_case} at {time}","Недавние события"
+translations.csv,select_events_screen.subtitle.all,select_events_screen.subtitle.all,"All events","@:yesterday {part_of_day_in_instrumental_case}","Все события"
+translations.csv,user_event_title_screen.title.create,user_event_title_screen.title.create,"New event","{date} {part_of_day_in_instrumental_case} at {time}","Новое событие"
+translations.csv,user_event_title_screen.title.update,user_event_title_screen.title.update,"Change event","{date} {part_of_day_in_instrumental_case}","Изменение события"
+translations.csv,user_event_title_screen.delete_popup.title,user_event_title_screen.delete_popup.title,"Delete event ""{event}""",评估,"Удалить событие «{event}»"
+translations.csv,user_event_title_screen.text_length_limit,user_event_title_screen.text_length_limit,"Text must not exceed 27 characters",删除评估,"Текст не должен превышать 27 символов"
+translations.csv,user_event_title_screen.input.hint_text,user_event_title_screen.input.hint_text,"Enter event name","Enter event name","Введите название события"
+translations.csv,user_event_select_emoji_screen.title,user_event_select_emoji_screen.title,"Event Icon",@:events,"Иконка события"
+translations.csv,select_emotions_screen.title,select_emotions_screen.title,Emotions,添加新的活动,Эмоции
+translations.csv,select_emotions_screen.stress_level.title,select_emotions_screen.stress_level.title,"Stress level",活动检索,"Уровень стресса"
+translations.csv,select_emotions_screen.stress_level.tooltip,select_emotions_screen.stress_level.tooltip,"The level of stress on a scale of 1 to 7",没有活动,"Уровень стресса по 7-ми бальной шкале."
+translations.csv,select_emotions_screen.user_emotions.title,select_emotions_screen.user_emotions.title,"My emotions",最近的活动,"Мои эмоции"
+translations.csv,select_emotions_screen.basic_emotions.title,select_emotions_screen.basic_emotions.title,"Basic emotions",所有的活动,"Базовые эмоции"
+translations.csv,select_emotions_screen.basic_emotions.tooltip,select_emotions_screen.basic_emotions.tooltip,"Basic human emotions (joy, fear, anger and sadness) of varying degrees of intensity.\nFor example, a strong feeling of joy corresponds to the emotion ""@:emotion.happy-3"".","Basic human emotions (joy, fear, anger and sadness) of varying degrees of intensity.\nFor example, a strong feeling of joy corresponds to the emotion ""@:emotion.happy-3"".","Базовые эмоции человека (радость, страх, злость и грусть) разной степени интенсивности.\nНапример сильное чувство радости соответствует эмоции «@:emotion.happy-3»."
+translations.csv,select_emotions_screen.society.title,select_emotions_screen.society.title,"Attitude towards people",新的活动,"Отношение к людям"
+translations.csv,select_emotions_screen.society.tooltip,select_emotions_screen.society.tooltip,"How you feel about people at the moment",更改活动,"Что ты испытываешь к людям в данный момент."
+translations.csv,select_emotions_screen.self_rating.title,select_emotions_screen.self_rating.title,Self-esteem,"删除活动""{event}""",Самооценка
+translations.csv,select_emotions_screen.self_rating.tooltip,select_emotions_screen.self_rating.tooltip,"How confident you are.\n(Ignore if you don't feel confident or insecure)",文字不得超过27字,"Насколько ты уверен в себе.\n(пропусти если не ощущаешь особой уверенности или неуверенности)"
+translations.csv,select_emotions_screen.concentration.title,select_emotions_screen.concentration.title,Concentration,写活动名称,Концентрация
+translations.csv,select_emotions_screen.concentration.tooltip,select_emotions_screen.concentration.tooltip,"How concentrated you are.\n(Ignore if concentration is normal)",活动图标,"Насколько ты сконцентрирован.\n(пропусти если концентрация в норме)"
+translations.csv,select_emotions_screen.other.title,select_emotions_screen.other.title,Others,Others,Остальные
+translations.csv,select_emotions_screen.other.tooltip,select_emotions_screen.other.tooltip,"All other emotes are listed here.\nIf the desired emote is not available, create your own.","情感 ","Здесь приведены все остальные эмоции.\nЕсли нужной эмоции нет создай свою."
+translations.csv,select_emotions_screen.stress_slider.low,select_emotions_screen.stress_slider.low,Low,应激水平,Низкий
+translations.csv,select_emotions_screen.stress_slider.high,select_emotions_screen.stress_slider.high,High,7点刻度上的应激水平,Высокий
+translations.csv,note_screen.title,note_screen.title,Note,"基本情感 ",Заметка
+translations.csv,note_screen.tooltip,note_screen.tooltip,"Enter your note...","不同程度的人类基本情感  (开心，害怕，生气，难过）。例如，强烈的喜悦感对应的是一种""@:emotion.happy-3""情绪","Оставь свою заметку…"
+translations.csv,note_screen.description,note_screen.description,"Notes help you remember the reasons for your mood. All your notes are conveniently viewed in the calendar.",对人的态度,"Заметки помогают вспомнить чем было\nвызвано твое настроение. Все твои заметки\nудобно просматривать в календаре."
+translations.csv,notifications_screen.title,notifications_screen.title,@:profile_screen.menu.notifications,现在对人有什么感觉？,@:profile_screen.menu.notifications
+translations.csv,notifications_screen.popup.title,notifications_screen.popup.title,"Set notification time",自我评价,"Выбери время"
+translations.csv,email_to_support.subject,email_to_support.subject,"Hello, Mind Tracker!",你有多自信？（如果没有自信的感觉或者没有不自信的感觉，请跳过）,"Привет, Mind Tracker!"
+translations.csv,account_screen.title,account_screen.title,@:profile_screen.menu.account,专心,@:profile_screen.menu.account
+translations.csv,account_screen.exit_popup.title,account_screen.exit_popup.title,"Do you want to sign out?","你有多专心？（如果专心正常, 请跳过）","Выйти из аккаунта?"
+translations.csv,account_screen.exit_popup.action_button_text,account_screen.exit_popup.action_button_text,"Sign out",其他,Выйти
+translations.csv,onboarding.title.1,onboarding.title.1,"Emotional health",这是其他所有的情感。如果没有合适的情感，请选择最合适的情感。,"Эмоциональное здоровье"
+translations.csv,onboarding.title.2,onboarding.title.2,"Influences and events",低,"Влияния и события"
+translations.csv,onboarding.title.3,onboarding.title.3,"Analyze and observe",高,"Анализируй и наблюдай"
+translations.csv,onboarding.text.1,onboarding.text.1,"Mark your mood throughout the day, you will have a better understanding of yourself and your feelings","Mark your mood throughout the day, you will have a better understanding of yourself and your feelings","Отмечай настроение в течение дня, это помогает лучше понимать себя и свои чувства."
+translations.csv,onboarding.text.2,onboarding.text.2,"Add events and see how they affect the mood in the moment and in the future.",注解,"Добавляй события и следи, как они влияют на настроение в моменте и в перспективе."
+translations.csv,onboarding.text.3,onboarding.text.3,"See how simply observing your mood improves your emotional balance and helps you manage stress better.",输入你的注解,"Убедись, как простое наблюдение за настроением улучшает эмоциональный баланс и помогает лучше справляться со стрессом."
+translations.csv,onboarding.action_button.title,onboarding.action_button.title,Start,注解能帮助你记住导致你心情的原因。你的所有注解都可以在日历中轻松查看。,Начать
+translations.csv,sign_in_with_socials_screen.title,sign_in_with_socials_screen.title,"Your mood tracker","Your mood tracker","Трекер твоего настроения"
+translations.csv,sign_in_with_socials_screen.email_button.title,sign_in_with_socials_screen.email_button.title,"Login via email",@:profile_screen.menu.notifications,"Войти через почту"
+translations.csv,sign_in_with_socials_screen.google_button.title,sign_in_with_socials_screen.google_button.title,"Login with Google",请选时间,"Войти через Google"
+translations.csv,register_with_email_screen.title,register_with_email_screen.title,Registration,Registration,Регистрация
+translations.csv,register_with_email_screen.error.email_already_in_use,register_with_email_screen.error.email_already_in_use,"Email already in use",我想报告一个问题!,"Почта уже занята"
+translations.csv,register_with_email_screen.error.invalid_email,register_with_email_screen.error.invalid_email,@:error.invalid_email,@:error.invalid_email,@:error.invalid_email
+translations.csv,register_with_email_screen.error.too_many_requests,register_with_email_screen.error.too_many_requests,@:error.too_many_requests,@:profile_screen.menu.account,@:error.too_many_requests
+translations.csv,register_with_email_screen.error.unknown,register_with_email_screen.error.unknown,"Failed to register",要登出吗?,"Не удалось зарегистрироваться"
+translations.csv,register_with_email_screen.action_button.title,register_with_email_screen.action_button.title,Register,登出,Зарегистрироваться
+translations.csv,sign_in_with_email_screen.title,sign_in_with_email_screen.title,"Login via email","Login via email","Авторизация через почту"
+translations.csv,sign_in_with_email_screen.error.user_not_found,sign_in_with_email_screen.error.user_not_found,@:error.user_not_found,"情感健康 ",@:error.user_not_found
+translations.csv,sign_in_with_email_screen.error.invalid_email,sign_in_with_email_screen.error.invalid_email,@:error.invalid_email,影响和活动,@:error.invalid_email
+translations.csv,sign_in_with_email_screen.error.too_many_requests,sign_in_with_email_screen.error.too_many_requests,@:error.too_many_requests,分析和观察,@:error.too_many_requests
+translations.csv,sign_in_with_email_screen.error.wrong_password,sign_in_with_email_screen.error.wrong_password,"Wrong password",记下你一天中的心情，这有帮助你更好地了解自己和自己的感受。,"Неверный пароль"
+translations.csv,sign_in_with_email_screen.error.unknown,sign_in_with_email_screen.error.unknown,"Failed to login",添加活动并查看它们如何影响当下和未来的情感,"Не удалось авторизоваться"
+translations.csv,sign_in_with_email_screen.enter_button.title,sign_in_with_email_screen.enter_button.title,Login,看看简单地观察你的情感如何改善你的情感平衡并帮助你更好地应对应激。,Войти
+translations.csv,sign_in_with_email_screen.register_button.title,sign_in_with_email_screen.register_button.title,Register,开始,Регистрация
+translations.csv,sign_in_with_email_screen.forgot_password_button.title,sign_in_with_email_screen.forgot_password_button.title,"Forgot password?","Forgot password?","Забыл пароль"
+translations.csv,restore_password_screen.title,restore_password_screen.title,"Password recovery",你的心情追踪器,"Восстановление пароля"
+translations.csv,restore_password_screen.action_button.title,restore_password_screen.action_button.title,Restore,用邮箱登录,Восстановить
+translations.csv,restore_password_screen.error.user_not_found,restore_password_screen.error.user_not_found,@:error.user_not_found,用Google登录,@:error.user_not_found
+translations.csv,restore_password_screen.error.invalid_email,restore_password_screen.error.invalid_email,@:error.invalid_email,@:error.invalid_email,@:error.invalid_email
+translations.csv,restore_password_screen.error.too_many_requests,restore_password_screen.error.too_many_requests,@:error.too_many_requests,登记,@:error.too_many_requests
+translations.csv,restore_password_screen.error.unknown,restore_password_screen.error.unknown,"Failed to recover password",已使用的邮件,"Не удалось восстановить пароль"
+translations.csv,error.user_not_found,error.user_not_found,"User not found",@:error.invalid_email,"Пользователь не найден"
+translations.csv,error.invalid_email,error.invalid_email,"Invalid email",@:error.too_many_requests,"Неверный формат почты"
+translations.csv,error.too_many_requests,error.too_many_requests,"Too many requests",登记失败,"Слишком много запросов"
+translations.csv,events_was_not_used_message.events.title,events_was_not_used_message.events.title,"Add events",登记,"Добавляй события"
+translations.csv,events_was_not_used_message.events.subtitle,events_was_not_used_message.events.subtitle,"Here you will see the influence\n of events on your mood","Here you will see the influence\n of events on your mood","Здесь ты увидишь влияние\n событий на настроение"
+translations.csv,events_was_not_used_message.emotions.title,events_was_not_used_message.emotions.title,"Add emotions",用邮箱登录,"Добавляй эмоции"
+translations.csv,events_was_not_used_message.emotions.subtitle,events_was_not_used_message.emotions.subtitle,"Here you will see the influence\n of emotions on your mood",@:error.user_not_found,"Здесь ты увидишь влияние\n эмоций на настроение"
+translations.csv,mood,mood,Mood,@:error.invalid_email,Настроение
+translations.csv,energy,energy,Energy,@:error.too_many_requests,Энергия
+translations.csv,events,events,Events,密码错误,События
+translations.csv,emotions,emotions,Emotions,登录错误,Эмоции
+translations.csv,notes,notes,Notes,登录,Заметки
+translations.csv,done,done,Done,登记,Готово
+translations.csv,save,save,Save,忘记密码,Сохранить
+translations.csv,delete,delete,Delete,Delete,Удалить
+translations.csv,edit,edit,Edit,密码恢复,Изменить
+translations.csv,cancel,cancel,Cancel,恢复,Отмена
+translations.csv,next,next,Next,@:error.user_not_found,Далее
+translations.csv,create,create,Create,@:error.invalid_email,Создать
+translations.csv,today,today,Today,@:error.too_many_requests,Сегодня
+translations.csv,yesterday,yesterday,Yesterday,"恢复密码失败 ",Вчера
+translations.csv,period.week,period.week,Week,Week,Неделя
+translations.csv,period.two_weeks,period.two_weeks,"2 weeks",没有用户,"2 недели"
+translations.csv,period.month,period.month,Month,"无效的邮件 ",Месяц
+translations.csv,period.all_time,period.all_time,"All time",尝试太多,"Всё время"
+translations.csv,mood.1,mood.1,Terrible,Terrible,Ужасное
+translations.csv,mood.2,mood.2,Bad,添加活动,Плохое
+translations.csv,mood.3,mood.3,"Not very well",这里你能看到活动对你心情的影响,"Не очень"
+translations.csv,mood.4,mood.4,Normal,添加情感,Нормальное
+translations.csv,mood.5,mood.5,Good,这里你能看到情感对你心情的影响,Хорошее
+translations.csv,mood.6,mood.6,Great,Great,Отличное
+translations.csv,mood.7,mood.7,Adorable,Adorable,Восхитительное
+translations.csv,energy.1,energy.1,"Wiped out","Wiped out","Полностью выжат"
+translations.csv,energy.2,energy.2,"Energy is very low","Energy is very low","Очень мало энергии"
+translations.csv,energy.3,energy.3,"Energy is low","Energy is low","Мало энергии"
+translations.csv,energy.4,energy.4,"Energy is normal","Energy is normal","Энергия в норме"
+translations.csv,energy.5,energy.5,"Energy is high","Energy is high","Много энергии"
+translations.csv,energy.6,energy.6,"Energy is very high","Energy is very high","Очень много энергии"
+translations.csv,energy.7,energy.7,Hyperactivity,Hyperactivity,Гиперактивность
+translations.csv,energy_short.1,energy_short.1,"Wiped out","Wiped out","Полностью выжат"
+translations.csv,energy_short.2,energy_short.2,"Very low","Very low","Очень мало"
+translations.csv,energy_short.3,energy_short.3,Low,心情,Мало
+translations.csv,energy_short.4,energy_short.4,Normal,"精力 ","В норме"
+translations.csv,energy_short.5,energy_short.5,High,High,Много
+translations.csv,energy_short.6,energy_short.6,"Very high",活动,"Очень много"
+translations.csv,energy_short.7,energy_short.7,Hyperactivity,情感,Гиперактивность
+translations.csv,weekday.1,weekday.1,Mon,备注,Пн
+translations.csv,weekday.2,weekday.2,Tues,Tues,Вт
+translations.csv,weekday.3,weekday.3,Wed,完成,Ср
+translations.csv,weekday.4,weekday.4,Thurs,保存,Чт
+translations.csv,weekday.5,weekday.5,Fri,Fri,Пт
+translations.csv,weekday.6,weekday.6,Sat,删除,Сб
+translations.csv,weekday.7,weekday.7,Sun,编辑,Вс
+translations.csv,,,,,
+translations.csv,month.1,month.1,January,继续,Январь
+translations.csv,month.2,month.2,February,创建,Февраль
+translations.csv,month.3,month.3,March,March,Март
+translations.csv,month.4,month.4,April,今天,Апрель
+translations.csv,month.5,month.5,May,昨天,Май
+translations.csv,month.6,month.6,June,June,Июнь
+translations.csv,month.7,month.7,July,一周,Июль
+translations.csv,month.8,month.8,August,两周,Август
+translations.csv,month.9,month.9,September,月,Сентябрь
+translations.csv,month.10,month.10,October,"所有时间 ",Октябрь
+translations.csv,month.11,month.11,November,November,Ноябрь
+translations.csv,month.12,month.12,December,超烂,Декабрь
+translations.csv,month_in_parent_case.1,month_in_parent_case.1,January,不爽,января
+translations.csv,month_in_parent_case.2,month_in_parent_case.2,February,一般般,февраля
+translations.csv,month_in_parent_case.3,month_in_parent_case.3,March,还行,марта
+translations.csv,month_in_parent_case.4,month_in_parent_case.4,April,好,апреля
+translations.csv,month_in_parent_case.5,month_in_parent_case.5,May,开心,мая
+translations.csv,month_in_parent_case.6,month_in_parent_case.6,June,狂喜,июня
+translations.csv,month_in_parent_case.7,month_in_parent_case.7,July,July,июля
+translations.csv,month_in_parent_case.8,month_in_parent_case.8,August,非常疲惫,августа
+translations.csv,month_in_parent_case.9,month_in_parent_case.9,September,很疲惫,сентября
+translations.csv,month_in_parent_case.10,month_in_parent_case.10,October,疲惫,октября
+translations.csv,month_in_parent_case.11,month_in_parent_case.11,November,精神正常,ноября
+translations.csv,month_in_parent_case.12,month_in_parent_case.12,December,激动,декабря
+translations.csv,part_of_day.1,part_of_day.1,Morning,很激动,Утро
+translations.csv,part_of_day.2,part_of_day.2,Afternoon,太激动了,День
+translations.csv,part_of_day.3,part_of_day.3,Evening,Evening,Вечер
+translations.csv,part_of_day.0,part_of_day.0,Night,非常疲惫,Ночь
+translations.csv,part_of_day_in_instrumental_case.1,part_of_day_in_instrumental_case.1,"in the morning",很少,утром
+translations.csv,part_of_day_in_instrumental_case.2,part_of_day_in_instrumental_case.2,"in the afternoon",少,днем
+translations.csv,part_of_day_in_instrumental_case.3,part_of_day_in_instrumental_case.3,"in the evening",正常,вечером
+translations.csv,part_of_day_in_instrumental_case.0,part_of_day_in_instrumental_case.0,"at night",多,ночью
+translations.csv,emotion.happy-1,emotion.happy-1,Serenity,很多,Безмятежность
+translations.csv,emotion.happy-2,emotion.happy-2,Joy,太激动了,Радость
+translations.csv,emotion.happy-3,emotion.happy-3,Delight,Delight,Восторг
+translations.csv,emotion.scared-1,emotion.scared-1,Anxiety,周一,Тревога
+translations.csv,emotion.scared-2,emotion.scared-2,Fear,周二,Страх
+translations.csv,emotion.scared-3,emotion.scared-3,Horror,周三,Ужас
+translations.csv,emotion.angry-1,emotion.angry-1,Irritation,周四,Раздражение
+translations.csv,emotion.angry-2,emotion.angry-2,Anger,周五,Злость
+translations.csv,emotion.angry-3,emotion.angry-3,Fury,周六,Ярость
+translations.csv,emotion.sad-1,emotion.sad-1,Upset,周日,Печаль
+translations.csv,emotion.sad-2,emotion.sad-2,Sadness,Sadness,Грусть
+translations.csv,emotion.sad-3,emotion.sad-3,Misery,一月,Горе
+translations.csv,emotion.dislike,emotion.dislike,Dislike,二月,Неприязнь
+translations.csv,emotion.indifferent,emotion.indifferent,Indifference,三月,Безразличие
+translations.csv,emotion.sympathy,emotion.sympathy,Sympathy,四月,Симпатия
+translations.csv,emotion.uncertainty,emotion.uncertainty,Uncertainty,五月,Неуверенность
+translations.csv,emotion.certainty,emotion.certainty,Confidence,六月,Уверенность
+translations.csv,emotion.distraction,emotion.distraction,Distraction,七月,Рассеяность
+translations.csv,emotion.concentration,emotion.concentration,Concentration,八月,Концентрация
+translations.csv,emotion.boring,emotion.boring,Boredom,九月,Скука
+translations.csv,emotion.alone,emotion.alone,Loneliness,十月,Одиночество
+translations.csv,emotion.excited,emotion.excited,Excitement,十一月,Возбуждение
+translations.csv,emotion.satisfied,emotion.satisfied,Satisfaction,十二月,Удовлетворение
+translations.csv,emotion.surprised,emotion.surprised,Surprise,Surprise,Удивление
+translations.csv,language.current,language.current,@:language.english,一月,@:language.russian
+translations.csv,language.russian,language.russian,Русский,二月,Русский
+translations.csv,language.english,language.english,English,三月,English
+translations.csv,email_input.error.is_empty,email_input.error.is_empty,"Enter your email",四月,"Введите почту"
+translations.csv,email_input.error.is_not_valid,email_input.error.is_not_valid,"Invalid email",五月,"Неверный формат почты"
+translations.csv,email_input.hint_text,email_input.hint_text,Email,六月,Почта
+translations.csv,password_input.error.is_empty,password_input.error.is_empty,"Enter your password",七月,"Введите пароль"
+translations.csv,password_input.error.short_password,password_input.error.short_password,"Password must be at least 8 characters",八月,"Пароль должен быть не короче 8 символов"
+translations.csv,password_input.hint_text,password_input.hint_text,Password,九月,Пароль
+translations.csv,notifications_screen.enable_notifications,notifications_screen.enable_notifications,"Enable notifications",十月,"Включить уведомления"
+translations.csv,notifications_screen.skip_button.title,notifications_screen.skip_button.title,Skip,十一月,Пропустить
+translations.csv,notifications_screen.no_notifications,notifications_screen.no_notifications,@:no_notifications,十二月,@:no_notifications
+translations.csv,no_notifications,no_notifications,"No notifications","No notifications","Нет уведомлений"
+translations.csv,account_screen.delete_account_button.title,account_screen.delete_account_button.title,"Delete account",早上,"Удалить аккаунт"
+translations.csv,account_screen.delete_account_first_popup.title,account_screen.delete_account_first_popup.title,"Account deletion",中午,"Удаление аккаунта"
+translations.csv,account_screen.delete_account_first_popup.secondary,account_screen.delete_account_first_popup.secondary,"Are you sure you want to delete your account and all data associated with it?",下午,"Вы уверены что хотите удалить аккаунт и все связанные с ним данные?"
+translations.csv,account_screen.delete_account_first_popup.action_button_text,account_screen.delete_account_first_popup.action_button_text,"I'm sure",晚上,"Я уверен"
+translations.csv,account_screen.delete_account_second_popup.title,account_screen.delete_account_second_popup.title,"Delete account\nand data?","Delete account\nand data?","Удалить аккаунт\nи данные?"
+translations.csv,account_screen.delete_account_with_password_popup.title,account_screen.delete_account_with_password_popup.title,"Enter your password\nto delete your account",早上,"Введите пароль\nдля удаления аккаунта"
+translations.csv,account_deletion_done.title.success,account_deletion_done.title.success,"Your account and data have been deleted",中午,"Ваш аккаунт и данные были удалены"
+translations.csv,account_deletion_done.title.error,account_deletion_done.title.error,"Failed to delete account",下午,"Не удалось удалить аккаунт"
+translations.csv,account_deletion_done.action_button.success,account_deletion_done.action_button.success,Done,晚上,Хорошо
+translations.csv,account_deletion_done.action_button.error,account_deletion_done.action_button.error,"Repeat later","Repeat later","Повторить позже"
+translations.csv,account_deletion_done.email_to_sopport_button.title,account_deletion_done.email_to_sopport_button.title,"Write to technical support","平静 ","Написать в техподдержку"
+translations.csv,email_to_delete_account_request.subject,email_to_delete_account_request.subject,"Please delete my account!",开心,"Прошу удалить мой аккаунт!"
+translations.csv,email_to_delete_account_request.body,email_to_delete_account_request.body,"Please delete my account {email} and all data associated with it.","喜悦 ","Прошу удалить мой аккаунт {email} и все связанные с ним данные."
+translations.csv,contact_to_support,contact_to_support,"\nWrite to our technical support if the problem cannot be solved.",担心,"\nНапишите нам в техподдержку если проблему не удаëтся решить."
+translations.csv,delete_account_error.requires_recent_login,delete_account_error.requires_recent_login,"Too much time has passed since the last login. Please re-login.@:contact_to_support",害怕,"С момента последней авторизации прошло слишком много времени. Пожалуйста перезайдите в аккаунт.@:contact_to_support"
+translations.csv,delete_account_error.too_many_requests,delete_account_error.too_many_requests,"Too many requests. Please try again later.@:contact_to_support","恐怖 ","Слишком много запросов. Повторите попытку позже.@:contact_to_support"
+translations.csv,delete_account_error.network_request_failed,delete_account_error.network_request_failed,"Internet connection problem.@:contact_to_support","气忿 ","Проблема с интернет соединением.@:contact_to_support"
+translations.csv,delete_account_error.unknown,delete_account_error.unknown,"You may not be connected to the internet.@:contact_to_support",生气,"Возможно у вас нет соединения с интернетом.@:contact_to_support"
+translations.csv,email_was_successfully_send_message.message,email_was_successfully_send_message.message,"An email has been sent to your email address with a link to reset your password.","狂怒 ","На твою почту отправлено письмо со ссылкой для сброса пароля."
+translations.csv,email_was_successfully_send_message.action_button.title,email_was_successfully_send_message.action_button.title,Ok,"忧郁 ",Хорошо
+translations.csv,notification.assess_mood.title,notification.assess_mood.title,"Assess your mood",难过,"Оцени своё настроение"
+translations.csv,notification.assess_mood.subtitle,notification.assess_mood.subtitle,"Click to assess",悲伤,"Нажми для оценки"
+translations.csv,popup.application_attitude,popup.application_attitude,"How do you like the application?",反感,"Как тебе приложение?"
+translations.csv,popup.application_assessment_amount,popup.application_assessment_amount,"{sign} mood assessments have already been given!",无所谓,"Уже поставлено оценок: {sign}"
+translations.csv,popup.hint_text,popup.hint_text,"Comment (optional)","Comment (optional)","Комментарий (необязательно)"
+translations.csv,popup.button_text,popup.button_text,Send,不自信,Оценить
+translations.csv,popup.thanks,popup.thanks,"Thank you!",自信,Спасибо!
+translations.csv,popup.leave_review,popup.leave_review,"Leave a rating on {platform}?",好感,"Оставишь отзыв в {platform}?"
+translations.csv,popup.no,popup.no,No,注意力,Нет
+translations.csv,popup.yes,popup.yes,Okay,无聊,Хорошо
+translations.csv,notion.review,notion.review,"You've been with us a long time","孤单 ","Вы с нами уже давно"
+translations.csv,noion.subtitle,noion.subtitle,"How do you like the application?","How do you like the application?","Как вам приложение?"
+translations.csv,update.title,update.title,"New update",兴奋,"Новое обновление!"
+translations.csv,update.text,update.text,"Now you can create your own emotions",满意,"Теперь вы можете создавать свои эмоции"
+translations.csv,popup.emotion_create,popup.emotion_create,"Creating emotion",惊讶,"Создание эмоций"
+translations.csv,popup.try_to_create,popup.try_to_create,"Try to create your own emotions","Try to create your own emotions","Попробуйте создать свои эмоции"
+translations.csv,popup.create_button,popup.create_button,"Create an emotion",酒,"Создать эмоцию"
+translations.csv,popup.got_it,popup.got_it,"Got it",孤单,Понятно
+translations.csv,user_emotion_title_screen.title.update,user_emotion_title_screen.title.update,"Change emotion",生气,"Изменение эмоции"
+translations.csv,user_emotion_title_screen.title.create,user_emotion_title_screen.title.create,"New emotion","忧虑 ","Новая эмоция"
+translations.csv,user_emotion_title_screen.input.hint_text,user_emotion_title_screen.input.hint_text,"Enter emotion name","漠不关心 ","Введите название эмоции"
+translations.csv,user_emotion_select_emoji_screen.title,user_emotion_select_emoji_screen.title,"Emotion Icon",不好睡眠,"Иконка эмоции"
+translations.csv,select_events_screen.subtitle.my_events,select_events_screen.subtitle.my_events,"My events",无聊,"Мои события"
+translations.csv,user_emotion_title_screen.delete_popup.title,user_emotion_title_screen.delete_popup.title,"Delete emotion «{emotion}»","冲突 ","Удалить эмоцию «{emotion}»"
+translations.csv,user_impact_screen.this_week,user_impact_screen.this_week,"This week",做饭,"Эта неделя"
+translations.csv,user_impact_screen.week_ago,user_impact_screen.week_ago,"A week ago",游戏,"Одну неделю назад"
+translations.csv,user_impact_screen.two_weeks_ago,user_impact_screen.two_weeks_ago,"Two weeks ago",好睡眠,"Две недели назад"
+translations.csv,user_impact_screen.three_weeks_ago,user_impact_screen.three_weeks_ago,"Three weeks ago",好吃饭,"Три недели назад"
+translations.csv,tester.access,tester.access,Tester,天气好,Тестировщик
+translations.csv,calendar.update.popup.title,calendar.update.popup.title,Calendar,灵感,Календарь
+translations.csv,calendar.update.popup.text,calendar.update.popup.text,"The new calendar makes it easier\nto view notes",高兴,"С новым календарем заметки стало просматривать удобнее"
+translations.csv,calendar.update.notion.title,calendar.update.notion.title,"We have a new calendar!",吱歪,"У нас новый календарь!"
+translations.csv,notion.survey.title,notion.survey.title,"Help us get better","冥想 ","Помогите нам стать лучше"
+translations.csv,popup.survey.text.body,popup.survey.text.body,"We continue to develop our product. Please\ntake a Google Form survey to let us know what\nexactly is it that you need","头痛 ","Мы продолжаем развивать наш продукт.\nПройдите опрос в Google Form что бы\nмы лучше понимали, что нужно именно тебе."
+translations.csv,popup.take_a_survey.button,popup.take_a_survey.button,"Take a survey",电影,"Пройти опрос"
+translations.csv,popup.survey.title,popup.survey.title,Interview,音乐,Опрос
+translations.csv,assessment.delete,assessment.delete,"Delete the assessment",下雨,"Удалить оценку"
+translations.csv,assessment.settings,assessment.settings,Settings,休息,Настройки
+translations.csv,appetite,appetite,Appetite,"生病 ",Аппетит
+translations.csv,sleep,sleep,Sleep,运动,Сон
+translations.csv,concentration,concentration,Concentration,放松,Концетрация
+translations.csv,libido,libido,Libido,"甜食 ",Либидо
+translations.csv,anxiety,anxiety,Anxiety,散步,Тревожность
+translations.csv,procrastination,procrastination,Procrastination,晚起,Прокрастинация
+translations.csv,workability,workability,Workability,工作,Работоспособность
+translations.csv,migraine,migraine,Migraine,Migraine,Мигрень
+translations.csv,stress,stress,Stress,"@:语言 中文",Стресс
+translations.csv,self_attitude,self_attitude,"Self attitude",俄语,"Отношение к себе"
+translations.csv,assessment.hours.of.sleep,assessment.hours.of.sleep,"Hours of sleep",英文,"Часов сна"
+translations.csv,assessment.sleep_satisfaction,assessment.sleep_satisfaction,"sleep satisfaction",中文,"удовлетворенность сном"
+translations.csv,slider.1,slider.1,Absent,Absent,Отсутствует
+translations.csv,slider.2,slider.2,"Severely reduced","Severely reduced","Сильно снижена"
+translations.csv,slider.3,slider.3,"Moderately reduced","Moderately reduced","Умеренно снижена"
+translations.csv,slider.4,slider.4,Medium,Medium,Средняя
+translations.csv,slider.5,slider.5,"Moderately increased","Moderately increased","Умеренно повышена"
+translations.csv,slider.6,slider.6,"Strongly increased","Strongly increased","Сильно повышена"
+translations.csv,slider.7,slider.7,Maximum,Maximum,Максимальная
+translations.csv,assessment.value.remove,assessment.value.remove,Remove,Remove,Убрать
+translations.csv,assessment.value.add,assessment.value.add,Add,Add,Добавить
+translations.csv,libido.1,libido.1,@:slider.1,@:slider.1,@:slider.1
+translations.csv,libido.2,libido.2,@:slider.2,@:slider.2,"Сильно снижено"
+translations.csv,libido.3,libido.3,@:slider.3,@:slider.3,"Умеренно снижено"
+translations.csv,libido.4,libido.4,@:slider.4,@:slider.4,Среднее
+translations.csv,libido.5,libido.5,@:slider.5,@:slider.5,"Умеренно повышено"
+translations.csv,libido.6,libido.6,@:slider.6,@:slider.6,"Сильно повышено"
+translations.csv,libido.7,libido.7,@:slider.7,@:slider.7,Максимальное
+translations.csv,procrastination.1,procrastination.1,@:slider.1,@:slider.1,Отсутствует
+translations.csv,procrastination.2,procrastination.2,@:slider.2,@:slider.2,"Сильно снижена"
+translations.csv,procrastination.3,procrastination.3,@:slider.3,@:slider.3,"Умеренно снижена"
+translations.csv,procrastination.4,procrastination.4,@:slider.4,@:slider.4,Средняя
+translations.csv,procrastination.5,procrastination.5,@:slider.5,@:slider.5,"Умеренно повышена"
+translations.csv,procrastination.6,procrastination.6,@:slider.6,@:slider.6,"Сильно повышена"
+translations.csv,procrastination.7,procrastination.7,@:slider.7,@:slider.7,Максимальная
+translations.csv,appetite.1,appetite.1,@:slider.1,@:slider.1,Отсутствует
+translations.csv,appetite.2,appetite.2,@:slider.2,@:slider.2,"Сильно снижен"
+translations.csv,appetite.3,appetite.3,@:slider.3,@:slider.3,"Умеренно снижен"
+translations.csv,appetite.4,appetite.4,@:slider.4,@:slider.4,Средний
+translations.csv,appetite.5,appetite.5,@:slider.5,@:slider.5,"Умеренно повышен"
+translations.csv,appetite.6,appetite.6,@:slider.6,@:slider.6,"Сильно повышен"
+translations.csv,appetite.7,appetite.7,@:slider.7,@:slider.7,Максимальный
+translations.csv,concentration.1,concentration.1,@:slider.1,@:slider.1,Отсутствует
+translations.csv,concentration.2,concentration.2,@:slider.2,@:slider.2,"Сильно снижена"
+translations.csv,concentration.3,concentration.3,@:slider.3,@:slider.3,"Умеренно снижена"
+translations.csv,concentration.4,concentration.4,@:slider.4,@:slider.4,Средняя
+translations.csv,concentration.5,concentration.5,@:slider.5,@:slider.5,"Умеренно повышена"
+translations.csv,concentration.6,concentration.6,@:slider.6,@:slider.6,"Сильно повышена"
+translations.csv,concentration.7,concentration.7,@:slider.7,@:slider.7,Максимальная
+translations.csv,stress.1,stress.1,@:slider.1,@:slider.1,Отсутствует
+translations.csv,stress.2,stress.2,@:slider.2,@:slider.2,"Сильно снижен"
+translations.csv,stress.3,stress.3,@:slider.3,@:slider.3,"Умеренно снижен"
+translations.csv,stress.4,stress.4,@:slider.4,@:slider.4,Средний
+translations.csv,stress.5,stress.5,@:slider.5,@:slider.5,"Умеренно повышен"
+translations.csv,stress.6,stress.6,@:slider.6,@:slider.6,"Сильно повышен"
+translations.csv,stress.7,stress.7,@:slider.7,@:slider.7,Максимальный
+translations.csv,beta_tester.notion.title,beta_tester.notion.title,"Take part in testing","Take part in testing","Примите участие\nв тестировании"
+translations.csv,beta_tester.popup.title,beta_tester.popup.title,"Test new features","Test new features","Тест нового функционала"
+translations.csv,beta_tester.popup.body,beta_tester.popup.body,"You have already given {} ratings.\nWe are testing new features and invite you\nto take part in testing. You will receive the latest updates and help us get better.","You have already given {} ratings.\nWe are testing new features and invite you\nto take part in testing. You will receive the latest updates and help us get better.","Уже поставлена оценок: {}.\nМы тестируем новый функционал и\nпредлагаем тебе принять участие в\nтестировании. Ты будешь получать самые\nпоследние обновления и поможешь нам\nстать лучше."
+translations.csv,beta_tester.popup.skip,beta_tester.popup.skip,Refuse,Refuse,Отказаться
+translations.csv,beta_tester.popup.get,beta_tester.popup.get,"Become a tester","Become a tester","Стать тестером"
+translations.csv,become.notion.title,become.notion.title,"Hooray! You are a beta tester","Hooray! You are a beta tester","Ура! Теперь ты-тестировщик"
+translations.csv,become.popup.title,become.popup.title,Hooray!,Hooray!,Ура!
+translations.csv,become.popup.body,become.popup.body,"You are now a tester! We have\nnew features for you.","You are now a tester! We have\nnew features for you.","Теперь ты-тестировщик! У нас для тебя новый функционал"
+translations.csv,become.popup.button,become.popup.button,"What features?","What features?",Какой?
+translations.csv,track.notion.title,track.notion.title,"Track even more","Track even more","Трэкать ещё больше"
+translations.csv,track.popup.title,track.popup.title,More,More,Больше
+translations.csv,track.popup.body,track.popup.body,"We've added even more scales that\nyou can customize. Scales\ncan be added and removed\non the mood selection screen.","We've added even more scales that\nyou can customize. Scales\ncan be added and removed\non the mood selection screen.","Мы добавили ешё больше шкал, которые\nты можешь настроить под себя. Шкалы\nможно добавлять и убирать на экране с\nвыбором настроения."
+translations.csv,track.popup.button,track.popup.button,"See scales","See scales","Посмотреть шкалы"
+default_events_v2.csv,dancing,dancing,Dancing,跳舞,Танцы
+default_events_v2.csv,alcohol,alcohol,Alcohol,酒,Алкоголь
+default_events_v2.csv,allergy,allergy,Allergy,过敏,Аллергия
+default_events_v2.csv,bath,bath,Bath,澡盆,Ванна
+default_events_v2.csv,bicycle,bicycle,Bicycle,自信车,Велосипед
+default_events_v2.csv,breakfast,breakfast,Breakfast,早饭,Завтрак
+default_events_v2.csv,bustle,bustle,Bustle,忙乱,Суета
+default_events_v2.csv,cleaning,cleaning,Cleaning,打扫,Уборка
+default_events_v2.csv,club,club,Club,夜总会,Клуб
+default_events_v2.csv,cold,cold,Cold,冷,"Холодная погода"
+default_events_v2.csv,communication,communication,Communication,聊天,Общение
+default_events_v2.csv,date,date,Date,约会,Свидание
+default_events_v2.csv,diet_food,diet_food,"Diet food",减肥食物,"Диетическая еда"
+default_events_v2.csv,dinner,dinner,Dinner,晚饭,Ужин
+default_events_v2.csv,energy_drink,energy_drink,"Energy drink",能量饮料,Энергетик
+default_events_v2.csv,family,family,Family,家庭,Семья
+default_events_v2.csv,fast_food,fast_food,"Fast Food",快餐,Фастфуд
+default_events_v2.csv,fatty_food,fatty_food,"Fatty food",油腻食物,"Жирная еда"
+default_events_v2.csv,fiesta,fiesta,Siesta,午睡,"Дневной сон"
+default_events_v2.csv,football,football,Football,足球,Футбол
+default_events_v2.csv,fresh_air,fresh_air,"Fresh air",新鲜空气,"Свежий воздух"
+default_events_v2.csv,fruit,fruit,Fruit,水果,Фрукты
+default_events_v2.csv,glass_of_water,glass_of_water,"Glass of water",杯水,"Стакан воды"
+default_events_v2.csv,good_weather,good_weather,"Good weather",天气好,"Хорошая погода"
+default_events_v2.csv,guests,guests,Guests,客人,Гости
+default_events_v2.csv,gym,gym,Gym,健身室,"Тренажерный зал"
+default_events_v2.csv,gymnastic,gymnastic,Gymnastic,体操,Гимнастика
+default_events_v2.csv,had_a_bite,had_a_bite,"Had a bite",吃点东西,Перекусил
+default_events_v2.csv,hot,hot,Hot,热,Жарко
+default_events_v2.csv,insomnia,insomnia,Insomnia,失眠,Бессонница
+default_events_v2.csv,jog,jog,Jog,跑步,Пробежка
+default_events_v2.csv,laziness,laziness,Laziness,懒,Лень
+default_events_v2.csv,light_food,light_food,"Light food",小吃,"Легкая еда"
+default_events_v2.csv,lunch,lunch,Lunch,中饭,Обед
+default_events_v2.csv,massage,massage,Massage,按摩,Массаж
+default_events_v2.csv,meditation,meditation,Meditation,禅修,Медитация
+default_events_v2.csv,meeting,meeting,Meeting,约会,Встреча
+default_events_v2.csv,meeting_with_friends,meeting_with_friends,"Meeting with friends",与朋友会面,"Встреча с друзьями"
+default_events_v2.csv,messenger,messenger,Messenger,聊天工具,Мессенджер
+default_events_v2.csv,movie,movie,Movie,电视,Фильм
+default_events_v2.csv,news,news,News,消息,Новости
+default_events_v2.csv,nightmare,nightmare,Nightmare,恶梦,"Страшный сон"
+default_events_v2.csv,painting,painting,Painting,画画,Рисование
+default_events_v2.csv,panic_attack,panic_attack,"Panic attack",惊恐发作,"Паническая атака"
+default_events_v2.csv,party,party,Party,蹦迪,Тусовка
+default_events_v2.csv,phone,phone,Phone,手机,Телефон
+default_events_v2.csv,prayer,prayer,Prayer,祈祷,Молитва
+default_events_v2.csv,procrastination,procrastination,Procrastination,拖延症,Прокрастинация
+default_events_v2.csv,psychiatrist,psychiatrist,Psychiatrist,精神病医师,Психиатр
+default_events_v2.csv,psychologist,psychologist,Psychologist,心理学家,Психолог
+default_events_v2.csv,quarrels,quarrels,Quarrels,吵架,Ссоры
+default_events_v2.csv,rain,rain,Rain,下雨,Дождь
+default_events_v2.csv,road,road,Road,道路,Дорога
+default_events_v2.csv,self_care,self_care,"Self care",自己护理,"Уход за собой"
+default_events_v2.csv,shopping,shopping,Shopping,购物,Шоппинг
+default_events_v2.csv,shower,shower,Shower,洗澡,Душ
+default_events_v2.csv,sigarettes,sigarettes,Sigarettes,烟,Сигареты
+default_events_v2.csv,sleepiness,sleepiness,Sleepiness,困倦,Сонливость
+default_events_v2.csv,snow,snow,Snow,下雪,Снег
+default_events_v2.csv,social_media,social_media,"Social media",社交媒体,"Социальные сети"
+default_events_v2.csv,study,study,Study,学习,Учеба
+default_events_v2.csv,swimming_pool,swimming_pool,"Swimming pool",游泳池,Бассейн
+default_events_v2.csv,tea,tea,Tea,茶,Чай
+default_events_v2.csv,tik_tok,tik_tok,"Tik Tok",抖音,"Тик Ток"
+default_events_v2.csv,tv_series,tv_series,"TV series",电视剧,Сериал
+default_events_v2.csv,vegetables,vegetables,Vegetables,蔬菜,Овощи
+default_events_v2.csv,warm_up,warm_up,Warm-up,早操,Зарядка
+default_events_v2.csv,went_to_bed_early,went_to_bed_early,"Went to bed early",早睡,"Рано лег"
+default_events_v2.csv,went_to_bed_late,went_to_bed_late,"Went to bed late",晚睡,"Поздно лег"
+default_events_v2.csv,woke_up_early,woke_up_early,"Woke up early",早起,"Рано проснулся"
+default_events_v2.csv,workout,workout,Workout,运动,Тренировка
+default_events_v2.csv,yoga,yoga,Yoga,瑜伽,Йога
+default_events_v2.csv,youtube,youtube,Youtube,油土鳖,Ютуб
